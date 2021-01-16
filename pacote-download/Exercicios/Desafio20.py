@@ -1,0 +1,7 @@
+nome = str(input('{}Digite seu nome completo: '.format('\033[1;33m'))).strip()
+print('{}Nome em Maiusculo: {}'.format('\033[1;30m', nome.upper()))
+print('Nome em Minusculo: {}'.format(nome.lower()))
+print('Contagem de letras do nome: {}'.format(len(''.join(nome.split()))))
+cont = nome.split()
+cont = len(cont[0])
+print('Contagem de letras do primeiro nome: {}'.format(cont))
